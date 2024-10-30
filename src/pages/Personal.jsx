@@ -12,7 +12,6 @@ import Testimonial from "../components/Testimonial"
 import CompanyLogo from '../components/CompanyLogo'
 import Partners from "../components/Partners"
 import '../App.css'
-import FeeTable from "../components/FeeTable"
 
 
 const Personal = ()=>{
@@ -43,20 +42,13 @@ const Personal = ()=>{
                 para={"We're serious about free banking, and we will never, ever charge you for anything without your consent."}/>
         <h1 className="headings">Don't just take our words for it</h1>
         <Testimonial/>
-        
-    {/* <CompanyLogo logo={tec} /> 
-            <CompanyLogo logo={forum}/>
-            <CompanyLogo logo={fintech}/>
-            <CompanyLogo logo={bbc}/>
-            <CompanyLogo logo={cnbc}/>
-            <CompanyLogo logo={euromoney}/> */}
+   
         <CompanyLogo />
 
         <h1 className="headings">Our Partners</h1>
         <Partners />
 
         <h1 className="headings">Choose the freedom you need.</h1>
-        <FeeTable />
         
             </>
     )

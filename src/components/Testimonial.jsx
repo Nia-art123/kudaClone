@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import fatimah from '../assets/fatimah.jpg'
+import car from '../assets/car.jpg'
 
 const Testimonial = ({text, profileImage, profileName})=>{
     return(
@@ -9,35 +9,35 @@ const Testimonial = ({text, profileImage, profileName})=>{
             <Card>
                 <p className='text'>Well done to the guys at @kudabank had a dispensing error on Friday night and reached out to them on Sunday... 48 working hours after and my money is back in my account... Special shout out to Maxwell and Norah</p>
                 <Profile>
-                <img src={fatimah} alt="" />
+                <img src={car} alt="" />
                 <p>Mu'azu Muhammad Kudu</p>
                 </Profile>
             </Card>
             <Card>
                 <p className='text'>Well done to the guys at @kudabank had a dispensing error on Friday night and reached out to them on Sunday... 48 working hours after and my money is back in my account... Special shout out to Maxwell and Norah</p>
                 <Profile>
-                <img src={fatimah} alt="" />
+                <img src={Card} alt="" />
                 <p>Mu'azu Muhammad Kudu</p>
                 </Profile>
             </Card>
             <Card>
                 <p className='text'>Well done to the guys at @kudabank had a dispensing error on Friday night and reached out to them on Sunday... 48 working hours after and my money is back in my account... Special shout out to Maxwell and Norah</p>
                 <Profile>
-                <img src={fatimah} alt="" />
+                <img src={car} alt="" />
                 <p>Mu'azu Muhammad Kudu</p>
                 </Profile>
             </Card>
             <Card>
                 <p className='text'>Well done to the guys at @kudabank had a dispensing error on Friday night and reached out to them on Sunday... 48 working hours after and my money is back in my account... Special shout out to Maxwell and Norah</p>
                 <Profile>
-                <img src={fatimah} alt="" />
+                <img src={car} alt="" />
                 <p>Mu'azu Muhammad Kudu</p>
                 </Profile>
             </Card>
             <Card>
                 <p className='text'>Well done to the guys at @kudabank had a dispensing error on Friday night and reached out to them on Sunday... 48 working hours after and my money is back in my account... Special shout out to Maxwell and Norah</p>
                 <Profile>
-                <img src={fatimah} alt="" />
+                <img src={car} alt="" />
                 <p>Mu'azu Muhammad Kudu</p>
                 </Profile>
             </Card>
@@ -90,16 +90,6 @@ const Wrapper = styled.div`
  display: flex;
     /* flex-direction: row; */
     flex-wrap: nowrap;
-    animation: scroll 20s linear infinite;  
-
-    @keyframes scroll {
-        0% {
-            transform: translateX(0);
-        }
-        100% {
-            transform: translateX(-100%);
-        }
-    }
 
 `
 const Card = styled.div`
